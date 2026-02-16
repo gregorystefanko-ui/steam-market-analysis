@@ -20,6 +20,17 @@ Steam games often belong to multiple genres (e.g., a single game can be tagged a
 ### 3. Genre-First Focus
 Analysis was performed by **Genre (Tags)** rather than a monthly scale to identify strategic trends in market segment volatility. This highlights which types of games are currently most prone to financial leakage regardless of release month.
 
+## Key Insights & Results
+
+Despite the broad nature of Steam's tagging system, the analysis yielded high-value strategic takeaways for the 2025-2026 release cycle:
+
+* **The "High-Risk" Leaderboard**: Three genres dominate the revenue leakage landscape, accounting for over $8B in combined revenue at risk:
+    1. **Action**: $3.42 Billion
+    2. **Adventure**: $2.69 Billion
+    3. **RPG**: $2.67 Billion
+* **Action Category Utility**: While "Action" is the most ubiquitous tag on the platform, this data quantifies its volatility. It confirms that while the Action market is the largest, it also requires the most rigorous quality assurance and sentiment monitoring to prevent massive refund cycles.
+* **Volume vs. Value**: The data revealed that "Indie" games have the highest total count (4,138 titles), yet their total revenue at risk ($1.69B) is significantly lower than the "Big Three" genres, suggesting that financial risk is concentrated in high-budget, multi-tagged AA/AAA titles.
+
 ## Tech Stack
 * **Python (Pandas)**: Data cleaning and "exploding" nested genre tags.
 * **SQL (SQLite)**: Relational database storage and aggregations to rank revenue leakage.
